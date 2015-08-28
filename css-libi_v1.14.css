@@ -3,7 +3,7 @@
 	css-libi_v1.14
 	Author : A. Irengba
 	website: http://www.irengba.com
-	Last Updated: 06-Aug-2013
+	Last Updated: 28-Aug-2015
 ///////////////////////////////////////	
 */
 
@@ -90,101 +90,82 @@ sup{vertical-align:super; font-size:smaller;}
 /* iframe-img*/
 iframe, img{border:none;}
 
-/* Clear*/
+
+/* Clear
+**/
 .clearLeft{clear:left;}
 .clearRight{clear:right;}
 .clear{clear:both; display:block; height:0;}
 .clearfix:before, .clearfix:after{content:" "; display:table;}
 .clearfix:after{clear:both;}
 
-/* Cursor*/
+
+/* Cursor
+**/
 .pointer{cursor:pointer;}
 .move{cursor:move;}
 .default{cursor:default;}
 
-/* Display*/
+
+/* Display
+**/
 .blk{display:block;}
 .inl{display:inline;}
 .inlBlk{display:inline-block;}
 .none{display:none;}
 
-/* Float*/
+
+/* Float
+**/
 .fl{float:left;}
 .fr{float:right;}
 .fn{float:none;}
 
-/* Font Style*/
+
+/* Font Style
+**/
 .normal{font-weight:normal;}
 .bold{font-weight:700;}
 .italic{font-style:italic;}
 
-/* Margin, Padding*/
-.mg0{margin:0;}
-.pd0{padding:0;}
 
-/* Overflow*/
+/* Overflow
+**/
 .visible{overflow:visible;}
 .hidden{overflow:hidden;}
 .ellips{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
 
-/* Visibility*/
+
+/* Visibility
+**/
 .vVisible{visibility:visible;}
 .vHidden{visibility:hidden;}
 
-/* Position*/
+
+/* Position
+**/
 .rel{position:relative;}
 .abs{position:absolute;}
 .sta{position:static;}
 .fix{position:fixed;}
-
-/* Position alignment*/
 .top0{top:0;}
 .right0{right:0;}
 .bottom0{bottom:0;}
 .left0{left:0;}
 
-/* Text-Align*/
-.left{text-align:left;}
-.right{text-align:right;}
-.center{text-align:center;}
-.justify{text-align:justify;}
 
-/* Text-Decoration*/
-.noUnderline{text-decoration:none;}
-.underline{text-decoration:underline;}
-.strike{text-decoration:line-through;}
+/* Text Style
+**/
+.txtLeft{text-align:left;}
+.txtRight{text-align:right;}
+.txtCenter{text-align:center;}
+.txtJustify{text-align:justify;}
+.txtNoline{text-decoration:none;}
+.txtLine{text-decoration:underline;}
+.txtStrike{text-decoration:line-through;}
+.txtCaps{text-transform:capitalize;}
+.txtUpper{text-transform:uppercase;}
+.txtLower{text-transform:lowercase;}
+.txtNoWrap{white-space:nowrap;}
+.txtBreakWord{word-wrap:break-word;}
 
-/* Text-Indent set to -999em*/
-.indent{text-indent:-999em;}
-
-/* Text-Transform*/
-.caps{text-transform:capitalize;}
-.upper{text-transform:uppercase;}
-.lower{text-transform:lowercase;}
-
-/* Text Behaviour*/
-.wsNoWrap{white-space:nowrap;}
-.ellips{text-overflow:ellipsis;}
-.wrBreak{word-wrap:break-word;}
-
-
-/* Opacity*/
-.opacity0{
-	opacity:0;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	filter:alpha(opacity=0);
-}
-
-.opacity1{
-	opacity:1;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter:alpha(opacity=100);
-}
-
-/* Media Queries*/
-@media print{
-	*{background:transparent !important; color:#000 !important; text-shadow:none}
-	a, a:visited{color:#000 !important; text-decoration:underline}
-	img{page-break-inside:avoid}
-}
-	
