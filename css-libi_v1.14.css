@@ -131,15 +131,14 @@ iframe, img{border:none;}
 
 /* Overflow
 **/
-.visible{overflow:visible;}
-.hidden{overflow:hidden;}
+.hide{overflow:hidden;}
 .ellips{text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
 
 
 /* Visibility
 **/
-.vVisible{visibility:visible;}
-.vHidden{visibility:hidden;}
+.visible{visibility:visible;}
+.invisible{visibility:hidden;}
 
 
 /* Position
